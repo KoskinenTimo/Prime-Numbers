@@ -1,6 +1,6 @@
 Simple prime number check app. API takes in 2 types of actions with corresponding number data: <br>
 
-api/checks/?action=checkprime&number=1234
+api/checks/?action=checkprime&number=1234<br>
 api/checks/?action=sumandcheck&numbers=1,2,3,4
 
 Tests for these endpoints can be run with 'npm test' inside the api folder. The frontend tests can be run inside client folder 'with npm test' command.
