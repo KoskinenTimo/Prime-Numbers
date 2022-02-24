@@ -7,8 +7,10 @@ Tests for these endpoints can be run with 'npm test' inside the api folder. The 
 
 ---------------------------------------------------------------------------------
 
-To get this app running, clone it, go inside the app:
+To get this app running:
 
+git clone https://github.com/KoskinenTimo/Prime-Numbers<br>
+cd Prime-Numbers<br>
 cd api<br>
 npm run build:ui<br>
 npm start
@@ -18,7 +20,7 @@ API healthcheck can be done at http://localhost:3001/healthcheck if needed.
 
 ---------------------------------------------------------------------------------
 
-If you want to run the app with development version:
+If you want to run the app with development version after cloning:
 
 cd client<br>
 npm install<br>
