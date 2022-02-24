@@ -10,8 +10,8 @@ Tests for these endpoints can be run with 'npm test' inside the api folder. The 
 To get this app running:
 
 git clone https://github.com/KoskinenTimo/Prime-Numbers<br>
-cd Prime-Numbers<br>
-cd api<br>
+cd Prime-Numbers/api/<br>
+npm install<br>
 npm run build:ui<br>
 npm start
 
