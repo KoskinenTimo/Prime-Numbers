@@ -1,0 +1,58 @@
+.prime-check-cntr {
+  width: 40%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.prime-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.prime-form__title {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+.prime-form__input {
+  margin: 0.6em 0;
+}
+
+.prime-form__input-title {
+  font-size: 1.1em;
+  margin-right: 1em;
+}
+.prime-form__input-error {
+  font-size: 1.1em;
+  color: red;
+}
+
+.prime-form__button--submit {
+  padding: .3em;
+  margin-bottom: .4em;
+}
+
+.prime-form__button--reset {
+  padding: .3em;
+}
+
+.prime-results {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.prime-results__title {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+.prime-results__label {
+  font-size: 1.1em;
+}
