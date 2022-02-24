@@ -9,8 +9,8 @@ Tests for these endpoints can be run with 'npm test' inside the api folder. The 
 
 To get this app running, clone it, go inside the app:
 
-cd api
-npm run build:ui
+cd api<br>
+npm run build:ui<br>
 npm start
 
 The app is now running at http://localhost:3001 <br>
@@ -20,14 +20,14 @@ API healthcheck can be done at http://localhost:3001/healthcheck if needed.
 
 If you want to run the app with development version:
 
-cd client
-npm install
+cd client<br>
+npm install<br>
 npm start
 
 Start another terminal and:
 
-cd api
-npm install
+cd api<br>
+npm install<br>
 npm run dev
 
 The frontend is now running at http://localhost:3000 <br>
