@@ -7,7 +7,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "jest --verbose --runInBand",
-    "build:ui": "rm -rf build && cd ../client/ && npm install && npm run build && cp -r build ../api && rm -rf build && rm -rf node_modules"
+    "build:ui": "rm -rf build && cd ../client/ && npm install && npm run build && cp -r build ../api && rm -rf build && rm -rf node_modules",
+    "lint": "eslint ./**/*.js"
   },
   "author": "Timo Koskinen",
   "license": "ISC",
