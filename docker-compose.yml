@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: prime-client
+    image: prime-client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+        - 3000:8080
+  server:
+    container_name: prime-api
+    image: prime-api
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3001:3001

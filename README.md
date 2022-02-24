@@ -3,7 +3,7 @@ Simple prime number check app. API takes in 2 types of actions with correspondin
 api/checks/?action=checkprime&number=1234<br>
 api/checks/?action=sumandcheck&numbers=1,2,3,4
 
-Tests for these endpoints can be run with 'npm test' inside the api folder. The frontend tests can be run inside client folder 'with npm test' command.
+Tests for these endpoints can be run with 'npm test' inside the api folder. The frontend tests can be run inside client folder with 'npm test' command.
 
 ---------------------------------------------------------------------------------
 
@@ -38,3 +38,12 @@ And the backend is running at http://localhost:3001
 ---------------------------------------------------------------------------------
 
 The frontend has very minimal styling on purpose, all focus was in compact and clean code plus tests.
+
+---------------------------------------------------------------------------------
+
+Testing nginx serving front with docker-compose, this is just addition own practice. After cloning you can use docker-compose at the root: <br>
+
+docker-compose up
+
+Front should be running at http://localhost:3000 <bn>
+and back at http://localhost:3001
